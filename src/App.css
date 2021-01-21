@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.contact-h1:visited { text-decoration: none; color:white; }
+.portfolio-links:visited { text-decoration: none; color: black;}
 
 
 /* <-------------------------nav bar-----------------------------> */
@@ -130,12 +134,23 @@ nav .burger {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-size: 3.3rem;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	padding-bottom: .5rem;
+}
+
+.about-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #about-p {
-	color: red;
+	color: #FF8333;
 	width: 60%;
-	margin-left: 20rem;
+	display: flex;
+	justify-content: space-around;
+	font-size: 1.8rem;
 }
 
 
@@ -153,6 +168,8 @@ nav .burger {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 1.8rem;
+	font-size: 3.3rem;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .project-cards {
@@ -232,12 +249,15 @@ nav .burger {
 /*<-------------------------Contact-----------------------------> */
 .contact-container {
 	margin-top: 1.8rem;
+	margin-bottom: .8rem;
 }
 
 .contact-h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-size: 3.3rem;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .contact-info {
@@ -248,7 +268,7 @@ nav .burger {
 
 .contact-logo {
 	width: 9vh;
-	height: 8vh;
+	height: 7vh;
 	padding-right: 1rem;
 }
 
@@ -256,12 +276,14 @@ nav .burger {
 	display: flex;
 	align-items: center;
 	text-decoration: none;
+	color: black;
 }
 
 #email {
 	display: flex;
 	align-items: center;
 	text-decoration: none;
+	color: black;
 }
 
 #phone {

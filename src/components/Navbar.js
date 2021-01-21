@@ -11,7 +11,7 @@ const Navbar = () => {
 						className='nav-links'
 						style={{ transform: open ? 'translateX(0px)' : '' }}>
 						<li>
-							<button className='nav-btns'>Contact</button>
+							<a href="#contact-link"><button className='nav-btns'>Contact</button></a>
 						</li>
 						<li>
 							<button className='nav-btns btn-open'>Resume</button>
