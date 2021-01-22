@@ -14,7 +14,7 @@ const Navbar = () => {
 							<a href="#contact-link"><button className='nav-btns'>Contact</button></a>
 						</li>
 						<li>
-							<button className='nav-btns btn-open'>Resume</button>
+							<a href="https://docs.google.com/document/d/1jkvvAAhUp_HS4f_c0JRXavMNTiUCGbbdK24G6Acw_wo/edit?usp=sharing"><button className='nav-btns btn-open'>Resume</button></a>
 						</li>
 					</ul>
 					<i onClick={() => setOpen(!open)} className='fas fa-bars burger'></i>
