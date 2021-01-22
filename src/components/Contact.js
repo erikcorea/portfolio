@@ -6,9 +6,8 @@ import phone from '../photos/phone.png';
 const Contact = () => {
     return (
 			<div className='contact-container'>
-				<a id='contact-link'>
-					<h1 className='contact-h1'>Contact</h1>
-				</a>
+				<h1 id="contact-link" className='contact-h1'>Contact</h1>
+
 				<div className='contact-info'>
 					<div id='linkedin'>
 						<img className='contact-logo' src={linked} alt='linkedin' />
