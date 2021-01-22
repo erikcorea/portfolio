@@ -8,22 +8,22 @@ const Projects = () => {
 					<div className='project-card-one'>
 						<div className='card-background-one'></div>
 						<div className='card-btns'>
-							<button className='project-github-btn'>gitHub</button>
-							<button className='project-live-btn'>Live</button>
+							<a href="https://github.com/erikcorea/flash-card"><button className='project-github-btn'>gitHub</button></a>
+							<a href="https://estudiarcards.netlify.app/"><button className='project-live-btn'>Live</button></a>
 						</div>
 					</div>
 					<div className='project-card-two'>
 						<div className='card-background-two'></div>
 						<div className='card-btns'>
-							<button className='project-github-btn'>gitHub</button>
+							<a href="https://github.com/erikcorea/news-project2"><button className='project-github-btn'>gitHub</button></a>
 							<button className='project-live-btn'>Live</button>
 						</div>
 					</div>
 					<div className='project-card-three'>
 						<div className='card-background-three'></div>
 						<div className='card-btns'>
-							<button className='project-github-btn'>gitHub</button>
-							<button className='project-live-btn'>Live</button>
+							<a href="https://github.com/Team-Orange4"><button className='project-github-btn'>gitHub</button></a>
+							<a href="http://team-orange4.herokuapp.com/"><button className='project-live-btn'>Live</button></a>
 						</div>
 					</div>
 				</div>
