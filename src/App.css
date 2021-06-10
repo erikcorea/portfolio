@@ -25,8 +25,8 @@ a {
 	min-height: 10vh;
 	align-items: center;
 	font-family: Arial, Helvetica, sans-serif;
-	background-color: #191919;
-	color: white;
+	background-color: #232126;
+	color:#D9B448;
 }
 
 nav .logo {
@@ -53,7 +53,7 @@ nav .nav-btns {
 	cursor: pointer;
 	border: none;
 	background: none;
-	color: #fff;
+	color: #D9B448;
 }
 
 nav .nav-links a:hover {
@@ -81,7 +81,7 @@ nav .burger {
 		top: 0;
 		left: 0;
 		height: 100vh;
-		background-color: #262626;
+		background-color: #232126;
 		padding: 40px;
 		width: 40%;
 		transform: translateX(-500px);
@@ -105,9 +105,9 @@ nav .burger {
 
 /*<-------------------------Home-----------------------------> */
 .home-container {
-	background-image: url('photos/lake.jpg');
+	background-color: #232126;
 	height: 30rem;
-	color: white;
+	color: #D9B448;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -128,10 +128,11 @@ nav .burger {
 /*<-------------------------About-----------------------------> */
 
 .about-container {
-	margin-top: 1.8rem;
+	background-color: #232126;
 }
 
 #about-h1 {
+	color: #D9B448;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -147,7 +148,7 @@ nav .burger {
 }
 
 #about-p {
-	color: #FF8333;
+	color: #D9B448;
 	width: 60%;
 	display: flex;
 	justify-content: space-around;
@@ -162,7 +163,7 @@ nav .burger {
 /*<-------------------------Project Cards-----------------------------> */
 
 .project-container {
-	margin-top: 1.8rem;
+	background-color: #232126;
 }
 
 #project-h1 {
@@ -250,8 +251,7 @@ nav .burger {
 
 /*<-------------------------Contact-----------------------------> */
 .contact-container {
-	margin-top: 1.8rem;
-	margin-bottom: .8rem;
+	background-color: #232126;
 }
 
 .contact-h1 {
