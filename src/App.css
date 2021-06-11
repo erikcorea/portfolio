@@ -161,6 +161,13 @@ nav .burger {
 	font-family: 'Kosugi', sans-serif;
 }
 
+@media(max-width: 700px){
+	#about-p {
+		width: 85%;
+		font-size: 1.4rem;
+	}
+}
+
 
 
 /*<-------------------------About-----------------------------> */
@@ -290,10 +297,20 @@ nav .burger {
 	text-decoration: none;
 }
 
+#linkedin a {
+	color: #BFBDBF;
+
+}
+
 #email {
 	display: flex;
 	align-items: center;
 	text-decoration: none;
+}
+
+#email a{
+	color: #BFBDBF;
+
 }
 
 #phone {
