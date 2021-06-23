@@ -143,7 +143,7 @@ nav .burger {
 	align-items: center;
 	font-size: 3.3rem;
 	font-family: 'Barlow Condensed', sans-serif;
-	padding-bottom: .5rem;
+	padding-bottom: .1rem;
 }
 
 .about-div{
@@ -164,7 +164,7 @@ nav .burger {
 @media(max-width: 700px){
 	#about-p {
 		width: 85%;
-		font-size: 1.4rem;
+		font-size: 1.1rem;
 	}
 }
 
@@ -174,93 +174,64 @@ nav .burger {
 
 /*<-------------------------Project Cards-----------------------------> */
 
-.project-container {
-	background-color: #232126;
-	height: 80vh;
+.card-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background: #232126;
+}
+
+.card {
+	width: 270px;
+	margin: 10px;
+	border-radius: 10px;
+	background: whitesmoke;
+}
+
+.card-image {
+	background-color: aqua;
+	height: 150px;
+	margin-bottom: 15px;
+	background-size: cover;
+	border-radius: 10px 10px 0 0;
+}
+
+.card-one {
+	background-image: url('./photos/spanish-cards.png');
+}
+
+.card-two {
+	background-image: url('./photos/trending-news.png');
+}
+
+.card-three {
+	background-image: url('./photos/orange.png');
+}
+
+.card-btns a{
+	background-color: black;
+	color: white;
+	padding: 15px 20px;
+	display: block;
+	text-align: center;
+	margin: 20px 50px;
+	border-radius: 5px;
+	font-family: 'Barlow Condensed', sans-serif;
 }
 
 #project-h1 {
+	color: #BFBDBF;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 1.8rem;
 	font-size: 3.3rem;
 	font-family: 'Barlow Condensed', sans-serif;
-	color: #BFBDBF;
+	padding-bottom: .5rem;
+	background: #232126;
 }
 
-.project-cards {
-	display: flex;
-	justify-content: space-around;
-}
 
-.project-card-one {
-	width: 50vh;
-	height: 40vh;
-	border: 1px solid black;
-	background-color: white;
-}
 
-.card-background-one {
-	background-image: url('photos/spanish-cards.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	height: 80%;
-	width: 100%;
-}
-
-.project-card-two {
-	width: 50vh;
-	height: 40vh;
-	border: 1px solid black;
-	background-color: white;
-}
-
-.card-background-two{
-	background-image: url('photos/trending-news.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	height: 80%;
-	width: 100%;
-}
-
-.project-card-three {
-	width: 50vh;
-	height: 40vh;
-	border: 1px solid black;
-	background-color: white;
-}
-
-.card-background-three{
-	background-image: url('photos/orange.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	height: 80%;
-	width: 100%;
-}
-
-.card-btns {
-	display: flex;
-	justify-content: space-around;
-}
-
-.project-github-btn {
-	background-color: black;
-	border-radius: 2px;
-	color: white;
-	text-decoration: none;
-	border: none;
-	padding: 15px 32px;
-}
-
-.project-live-btn {
-	background-color: black;
-	border-radius: 2px;
-	color: white;
-	text-decoration: none;
-	border: none;
-	padding: 15px 32px;
-}
 /*<-------------------------Project Cards-----------------------------> */
 
 /*<-------------------------Contact-----------------------------> */
@@ -276,6 +247,7 @@ nav .burger {
 	font-size: 3.3rem;
 	font-family: 'Barlow Condensed', sans-serif;
 	color: #BFBDBF;
+	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
 
