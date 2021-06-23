@@ -16,7 +16,7 @@ const Projects = () => {
 					<div className="card-image card-two"></div>
 					<div className="card-btns">
 						<a href="https://github.com/erikcorea/news-project2">GitHub</a>
-						<a href="">Live</a>
+						<a href="https://github.com/erikcorea/news-project2">Live</a>
 					</div>
 				</div>
 
