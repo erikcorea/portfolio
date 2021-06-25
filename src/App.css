@@ -134,6 +134,7 @@ nav .burger {
 .about-container {
 	background-color: #232126;
 	height: 60vh;
+	padding-top: 5rem;
 }
 
 #about-h1 {
@@ -143,7 +144,7 @@ nav .burger {
 	align-items: center;
 	font-size: 3.3rem;
 	font-family: 'Barlow Condensed', sans-serif;
-	padding-bottom: .1rem;
+	padding-bottom: .2rem;
 }
 
 .about-div{
@@ -154,14 +155,21 @@ nav .burger {
 
 #about-p {
 	color: #BF1523;
-	width: 65%;
+	width: 60%;
 	display: flex;
 	justify-content: space-around;
 	font-size: 1.8rem;
 	font-family: 'Kosugi', sans-serif;
 }
 
-@media(max-width: 700px){
+@media(max-width: 1600px){
+	#about-p {
+		width: 70%;
+		font-size: 1.5rem;
+	}
+}
+
+@media(max-width: 800px){
 	#about-p {
 		width: 85%;
 		font-size: 1.1rem;
@@ -206,6 +214,10 @@ nav .burger {
 
 .card-three {
 	background-image: url('./photos/orange.png');
+}
+
+.card-four {
+	background-image: url('./photos/quote.png');
 }
 
 .card-btns a{

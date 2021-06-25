@@ -12,6 +12,7 @@ const Projects = () => {
 						<a href="https://estudiarcards.netlify.app/">Live</a>
 					</div>
 				</div>
+
 				<div className="card">
 					<div className="card-image card-two"></div>
 					<div className="card-btns">
@@ -25,6 +26,14 @@ const Projects = () => {
 					<div className="card-btns">
 						<a href="https://github.com/Team-Orange4">GitHub</a>
 						<a href="http://team-orange4.herokuapp.com/">Live</a>
+					</div>
+				</div>
+
+				<div className="card">
+					<div className="card-image card-four"></div>
+					<div className="card-btns">
+						<a href="https://github.com/erikcorea/quote_gen">GitHub</a>
+						<a href="https://quotegeneratorator.netlify.app/">Live</a>
 					</div>
 				</div>
 			</div> 
